@@ -1,15 +1,13 @@
-numbers = [1, 5, 10, 7, 4]
+numbers = [2, 4, 6, 8] 
 
-# Initialize highest number
-highest_number = numbers[0]
+# Initialize sum 
+sum = 0
 
-# Iterate through list
-for num in numbers:
-    if num > highest_number:
-        highest_number = num
+# Iterate over the list 
+for num in numbers: 
+	sum += num 
 
-# Print the highest number
-print(highest_number)
+# Print the sum 
+print(sum) 
 
-# Output
-10
+# Output: 20
